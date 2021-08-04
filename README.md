@@ -1,4 +1,4 @@
-# Twitter API Crawler - Web Science Assessment 2304777P
+# Python Twitter API Crawler
 
 This project was to use the Twitter streaming api to read in real-time text (see crawler.py). Then this data was run through a clustering file to put the tweets into groups based on similarity and the identifies 10 keys words for each cluster (see cluster.py). The key words were then supposed to be run through a Hybrid API which combined the streaming API and a new search API which can gather pre-existing tweets. This means more data is being collected as the key words, identified in cluster.py, are identifying tweets which are being tweeted in real time and pre-existing ones (see hybridCrawler.py).
  
